@@ -1,0 +1,269 @@
+/* General form container */
+.card {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Input fields styling */
+input[type="email"],
+input[type="password"] {
+    width: 94%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Styling for the error messages */
+p {
+    color: red;
+    font-size: 12px;
+}
+
+/* Submit button */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50; /* Green for Login */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Submit button hover effect */
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Register button below form */
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue color for Register */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Register button hover effect */
+.register-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the login form container */
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+/* Container Styling */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Buttons Section */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+input[type="file"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.export-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.export-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Table Styling */
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-table th, .user-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-table th {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.user-table tbody tr:hover {
+    background: #f1f1f1;
+}
+
+/* Actions */
+.user-table button {
+    margin-right: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.user-table button:nth-child(1) {
+    background-color: #ffc107;
+    color: white;
+}
+
+.user-table button:nth-child(1):hover {
+    background-color: #e0a800;
+}
+
+.user-table button:nth-child(2) {
+    background-color: #dc3545;
+    color: white;
+}
+
+.user-table button:nth-child(2):hover {
+    background-color: #c82333;
+}
+
+/* Error Message */
+.error {
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+/* Dialog Styles */
+.dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dialog-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 94%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cancel-btn, .update-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .update-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+
+  .dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+  }
+  
+  .dialog-content {
+    max-height: 80%;
+    max-width: 600px;
+    overflow-y: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
